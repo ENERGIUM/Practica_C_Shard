@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Martin Tabusso\\Documents\\Programaci\u00F3n\\UTN\\Programaci\u00F3n 3\\Tema 3 - Introduccion C#\\practica\\Practico2\\Ejercicio1\\",
+  "WorkspaceRootPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\a\u00F1o_2\\cuatrimestre-1\\Programaci\u00F3n 3\\Practicas\\C#\\Practico2\\Ejercicio1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22D1B642-B2A0-4525-84BF-C6E50D20735E}|Ejercicio1\\Ejercicio1.csproj|c:\\users\\martin tabusso\\documents\\programaci\u00F3n\\utn\\programaci\u00F3n 3\\tema 3 - introduccion c#\\practica\\practico2\\ejercicio1\\ejercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22D1B642-B2A0-4525-84BF-C6E50D20735E}|Ejercicio1\\Ejercicio1.csproj|d:\\users\\martin tabusso\\documents\\utn_rafaela\\a\u00F1o_2\\cuatrimestre-1\\programaci\u00F3n 3\\practicas\\c#\\practico2\\ejercicio1\\ejercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22D1B642-B2A0-4525-84BF-C6E50D20735E}|Ejercicio1\\Ejercicio1.csproj|solutionrelative:ejercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Martin Tabusso\\Documents\\Programaci\u00F3n\\UTN\\Programaci\u00F3n 3\\Tema 3 - Introduccion C#\\practica\\Practico2\\Ejercicio1\\Ejercicio1\\Program.cs",
+              "DocumentMoniker": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\a\u00F1o_2\\cuatrimestre-1\\Programaci\u00F3n 3\\Practicas\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Program.cs",
               "RelativeDocumentMoniker": "Ejercicio1\\Program.cs",
-              "ToolTip": "C:\\Users\\Martin Tabusso\\Documents\\Programaci\u00F3n\\UTN\\Programaci\u00F3n 3\\Tema 3 - Introduccion C#\\practica\\Practico2\\Ejercicio1\\Ejercicio1\\Program.cs",
+              "ToolTip": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\a\u00F1o_2\\cuatrimestre-1\\Programaci\u00F3n 3\\Practicas\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Program.cs",
               "RelativeToolTip": "Ejercicio1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T01:19:57.244Z",
               "EditorCaption": ""
