@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Martin Tabusso\\.nuget\\packages\\": {}
+    "C:\\Users\\Aye\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico2\\Ejercicio3\\Ejercicio3\\Ejercicio3.csproj",
-      "projectName": "Ejercicio3",
-      "projectPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico2\\Ejercicio3\\Ejercicio3\\Ejercicio3.csproj",
-      "packagesPath": "C:\\Users\\Martin Tabusso\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico2\\Ejercicio3\\Ejercicio3\\obj\\",
+      "projectUniqueName": "C:\\Users\\Aye\\Documents\\Practica Programacion\\Ejercicio03\\Ejercicio03\\Ejercicio03.csproj",
+      "projectName": "Ejercicio03",
+      "projectPath": "C:\\Users\\Aye\\Documents\\Practica Programacion\\Ejercicio03\\Ejercicio03\\Ejercicio03.csproj",
+      "packagesPath": "C:\\Users\\Aye\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aye\\Documents\\Practica Programacion\\Ejercicio03\\Ejercicio03\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Martin Tabusso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
