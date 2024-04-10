@@ -31,19 +31,7 @@ namespace Ejercicio10
         }
 
 
-        public static string Left(string param, int length)
-        {
-            string result = param.Substring(0, length);
-            return result;
-        }
-
-        public static string Right(string param, int length)
-        {
-            int value = param.Length - length;
-            string result = param.Substring(value, length);
-            return result;
-        }
-
+       
         public static void recorrerCharIzq(string param)
         {
             String salida = " ";
