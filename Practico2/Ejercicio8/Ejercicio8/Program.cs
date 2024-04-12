@@ -85,11 +85,11 @@ namespace Ejercicio8
             } while (flag);
             Resultado = ((double)CantidadH * precioH) + ((double)CantidadP * precioP) + ((double)CantidadB * precioB);
             Console.WriteLine("\n#.PRECIO FINAL: "+Resultado);
-            Console.WriteLine("#.PRECIO FINAL: "+String.Format("{0:####.00}", Resultado)); //formatea el entero de manera que solo presente 2 digitos en la parte decimal
-            Console.WriteLine("#.PRECIO FINAL: "+String.Format("{0:c}", Resultado));
-            Console.WriteLine("#.PRECIO FINAL: "+String.Format("{0:g}", Resultado));
-            Console.WriteLine("#.Fecha: "+String.Format("{0:F}", DateTime.Now));
-            Console.WriteLine("#.Fecha: "+String.Format(" {0:dddd}{0: dd/MM/yyy}", DateTime.Now));
+            Console.WriteLine("#.PRECIO FINAL: "+String.Format("{0:####.00}", Resultado));          //formatea el numero de manera que solo presente 2 digitos en la parte decimal y en caso de no tener parte entera imprima un 0
+            Console.WriteLine("#.PRECIO FINAL: "+String.Format("{0:c}", Resultado));                //formatea el numero de manera que el primer caracter a representar sea un simbolo de moneda, en caso contrario devuelve un 0
+            Console.WriteLine("#.PRECIO FINAL: "+String.Format("{0:g}", Resultado));                //formatea el numero de manera que lo convierta a la notación más compacta de punto fijo o científica ("rendondea"), caso contrario devuelve un 0 
+            Console.WriteLine("#.Fecha: "+String.Format("{0:F}", DateTime.Now));                    //formatea la fecha en formato F (dia, mes, año, y hora), en caso de dato invalido muestra un 0
+            Console.WriteLine("#.Fecha: "+String.Format(" {0:dddd}{0: dd/MM/yyy}", DateTime.Now));  //formatea la fecha obtenida del sistema en nombre de dia, dia/mes/año, en caso contrario muestra un 0 si no se pudo obtener o es invalida
         }
         static double precio()
         {
