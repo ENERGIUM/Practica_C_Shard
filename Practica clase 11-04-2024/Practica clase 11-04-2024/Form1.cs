@@ -16,5 +16,25 @@ namespace Practica_clase_11_04_2024
         {
             InitializeComponent();
         }
+
+        private void bto_procesar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_resultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void apellido_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nombre_TextChanged(object sender, EventArgs e)
+        {
+            string nombre = "hola";
+        }
     }
 }
