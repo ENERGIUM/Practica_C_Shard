@@ -1,0 +1,15 @@
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\bin\Debug\net8.0\Ejercicio3.exe
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\bin\Debug\net8.0\Ejercicio3.deps.json
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\bin\Debug\net8.0\Ejercicio3.runtimeconfig.json
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\bin\Debug\net8.0\Ejercicio3.dll
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\bin\Debug\net8.0\Ejercicio3.pdb
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\Ejercicio3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\Ejercicio3.AssemblyInfoInputs.cache
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\Ejercicio3.AssemblyInfo.cs
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\Ejercicio3.csproj.CoreCompileInputs.cache
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\Ejercicio3.sourcelink.json
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\Ejercicio3.dll
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\refint\Ejercicio3.dll
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\Ejercicio3.pdb
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\Ejercicio3.genruntimeconfig.cache
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio3\Ejercicio3\obj\Debug\net8.0\ref\Ejercicio3.dll
