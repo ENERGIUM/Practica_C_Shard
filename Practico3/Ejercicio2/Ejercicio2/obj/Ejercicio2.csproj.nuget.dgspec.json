@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj": {}
+    "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj": {
+    "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
-        "projectName": "Ejercicio1",
-        "projectPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
+        "projectUniqueName": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
+        "projectName": "Ejercicio2",
+        "projectPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
         "packagesPath": "C:\\Users\\Martín Tabusso\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio1\\Ejercicio1\\obj\\",
+        "outputPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico3\\Ejercicio2\\Ejercicio2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Martín Tabusso\\AppData\\Roaming\\NuGet\\NuGet.Config",

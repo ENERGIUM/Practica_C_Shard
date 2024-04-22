@@ -13,3 +13,18 @@ C:\Users\Martin Tabusso\Documents\Programación\UTN\Programación 3\Tema 3 - Int
 C:\Users\Martin Tabusso\Documents\Programación\UTN\Programación 3\Tema 3 - Introduccion C#\practica\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.pdb
 C:\Users\Martin Tabusso\Documents\Programación\UTN\Programación 3\Tema 3 - Introduccion C#\practica\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.genruntimeconfig.cache
 C:\Users\Martin Tabusso\Documents\Programación\UTN\Programación 3\Tema 3 - Introduccion C#\practica\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\ref\Ejercicio1.dll
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\bin\Debug\net8.0\Ejercicio1.exe
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\bin\Debug\net8.0\Ejercicio1.deps.json
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\bin\Debug\net8.0\Ejercicio1.runtimeconfig.json
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\bin\Debug\net8.0\Ejercicio1.dll
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\bin\Debug\net8.0\Ejercicio1.pdb
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.AssemblyInfoInputs.cache
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.AssemblyInfo.cs
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.csproj.CoreCompileInputs.cache
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.sourcelink.json
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.dll
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\refint\Ejercicio1.dll
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.pdb
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\Ejercicio1.genruntimeconfig.cache
+D:\Users\Martin Tabusso\Documents\UTN_RAFAELA\año_2\cuatrimestre-1\Programación 3\Practicas\C#\Practico3\Ejercicio1\Ejercicio1\obj\Debug\net8.0\ref\Ejercicio1.dll
