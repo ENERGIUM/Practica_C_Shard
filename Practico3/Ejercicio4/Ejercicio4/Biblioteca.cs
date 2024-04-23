@@ -8,7 +8,7 @@ namespace Ejercicio4
 {
     static class Biblioteca
     {
-        public static void agregarLibro(ref Libro libro, ref List<Libro> biblioteca)
+        public static void agregarLibro(Libro libro, ref List<Libro> biblioteca)
         {
             biblioteca.Add(libro);
         }
@@ -54,8 +54,7 @@ namespace Ejercicio4
                     {
                         libro.EjemplaresDisponibles--;
                         libro.EjemplaresRetirados++;
-                        Libro libro1 = libro;
-                        var prestamo = new Prestamo(fechaPrestamo, fechaDevolucion, libro1, nombreDeLector);
+                        var prestamo = new Prestamo(fechaPrestamo, fechaDevolucion, libro, nombreDeLector);
                         prestamos.Add(prestamo);
                     }
                     break;
@@ -63,7 +62,47 @@ namespace Ejercicio4
             }
             if (!siEncontrado)
             {
-                Console.WriteLine("\n#-LIBRO NO ENCONTRADO");
+                Console.WriteLine("\n#-LIBRO NO ENCONTRADO EN EL SISTEMA");
+            }
+        }
+
+        public static void devolverLibro(ulong isbn, ref List<Libro>biblioteca, ref List<Prestamo>prestados)
+        {
+            bool siEncontradoPrestamo = false, siEncontradoBiblioteca = false;
+            foreach (Prestamo prestamo in prestados)
+            {
+                if (prestamo.LibroPrestado.Isbn != isbn)
+                {
+                    continue;
+                }
+                else
+                {
+                    siEncontradoPrestamo = true;
+                    prestados.Remove(prestamo);
+                    foreach (Libro libro in biblioteca)
+                    {
+                        if (libro.Isbn != isbn)
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            siEncontradoBiblioteca = true;
+                            ++libro.EjemplaresDisponibles;
+                            --libro.EjemplaresRetirados;
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+            if (!(siEncontradoPrestamo))
+            {
+                Console.WriteLine("\n#-RETIRO NO REGISTRADO");
+            }
+            if (!(siEncontradoBiblioteca))
+            {
+                Console.WriteLine("\n#-LIBRO NO ENCONTRADO EN EL SISTEMA");
             }
         }
 

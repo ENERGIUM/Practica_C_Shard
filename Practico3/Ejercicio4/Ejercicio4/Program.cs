@@ -40,20 +40,23 @@ namespace Ejercicio4
                         string num_s = Console.ReadLine();
                         uint num = Convert.ToUInt32(num_s);
                         Libro libro = new Libro(titulo, autor, isbn, gen, num);
-                        Biblioteca.agregarLibro(ref libro, ref biblioteca);
+                        Biblioteca.agregarLibro(libro, ref biblioteca);
                         break;
 
                     case 2:
                         Console.Write("\n#-(Ingrese ISBN de libro): ");
                         isbn = Convert.ToUInt64(Console.ReadLine());
                         libro = Biblioteca.buscarLibroPorISBN(isbn, biblioteca);
-                        Console.WriteLine(libro.ToString());
+                        if (libro == null)
+                        {
+                            Console.WriteLine("\n#-Libro no encontrado");
+                        }else Console.WriteLine(libro.ToString());
                         break;
 
                     case 3:
                         Console.Write("\n#-(Ingrese Nombre del lector que retira el libro): ");
                         string nombre = Console.ReadLine();
-                        Console.Write("#-(Ingrese Isbn del Libro): ");
+                        Console.Write("\n#-(Ingrese Isbn del Libro): ");
                         isbn_s = Console.ReadLine();
                         isbn = Convert.ToUInt64(isbn_s);
                         Console.Write("\n#-(Ingrese Fecha del prestamo del libro): ");
@@ -64,6 +67,10 @@ namespace Ejercicio4
                         break;
 
                     case 4:
+                        Console.Write("#-(Ingrese Isbn del Libro): ");
+                        isbn_s = Console.ReadLine();
+                        isbn = Convert.ToUInt64(isbn_s);
+                        Biblioteca.devolverLibro(isbn, ref biblioteca, ref prestamos);
                         break;
 
                     case 5:

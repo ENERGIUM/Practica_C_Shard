@@ -37,7 +37,7 @@ namespace Ejercicio4
 
         public override string ToString()
         {
-            return "\nTitulo: " + titulo + "\nAutor: " + autor + "\nIsbn: " + isbn + "\nGenero: " + genero + "\nEjemplaresDisponibles: " + ejemplaresDisponibles;
+            return "\nTitulo: " + titulo + "\nAutor: " + autor + "\nIsbn: " + isbn + "\nGenero: " + genero + "\nEjemplares: " + ejemplares + "\nEjemplaresDisponibles: " + ejemplaresDisponibles;
         }
 
         public string ToString2()
