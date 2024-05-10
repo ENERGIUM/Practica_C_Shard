@@ -29,31 +29,35 @@
         private void InitializeComponent()
         {
             this.gbDetalleDeUsuario = new System.Windows.Forms.GroupBox();
-            this.gbGenero = new System.Windows.Forms.GroupBox();
-            this.gbCurso = new System.Windows.Forms.GroupBox();
-            this.laNombre = new System.Windows.Forms.Label();
-            this.laDirección = new System.Windows.Forms.Label();
-            this.tBNombre = new System.Windows.Forms.TextBox();
-            this.tBDirección = new System.Windows.Forms.TextBox();
-            this.laEdad = new System.Windows.Forms.Label();
-            this.rBMasculino = new System.Windows.Forms.RadioButton();
-            this.rBFemenino = new System.Windows.Forms.RadioButton();
-            this.rBIndefinido = new System.Windows.Forms.RadioButton();
-            this.cBCshard = new System.Windows.Forms.CheckBox();
-            this.cBCmasmas = new System.Windows.Forms.CheckBox();
-            this.cBJavascript = new System.Windows.Forms.CheckBox();
-            this.lBPais = new System.Windows.Forms.ListBox();
             this.numericUpDownEdad = new System.Windows.Forms.NumericUpDown();
+            this.laEdad = new System.Windows.Forms.Label();
+            this.tBDirección = new System.Windows.Forms.TextBox();
+            this.tBNombre = new System.Windows.Forms.TextBox();
+            this.laDirección = new System.Windows.Forms.Label();
+            this.laNombre = new System.Windows.Forms.Label();
+            this.gbGenero = new System.Windows.Forms.GroupBox();
+            this.rBIndefinido = new System.Windows.Forms.RadioButton();
+            this.rBFemenino = new System.Windows.Forms.RadioButton();
+            this.rBMasculino = new System.Windows.Forms.RadioButton();
+            this.gbCurso = new System.Windows.Forms.GroupBox();
+            this.cBJavascript = new System.Windows.Forms.CheckBox();
+            this.cBCmasmas = new System.Windows.Forms.CheckBox();
+            this.cBCshard = new System.Windows.Forms.CheckBox();
+            this.lBPais = new System.Windows.Forms.ListBox();
             this.laPaís = new System.Windows.Forms.Label();
             this.buttonIngresar = new System.Windows.Forms.Button();
+            this.lBCuit = new System.Windows.Forms.Label();
+            this.makTextBoxCuit = new System.Windows.Forms.MaskedTextBox();
             this.gbDetalleDeUsuario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEdad)).BeginInit();
             this.gbGenero.SuspendLayout();
             this.gbCurso.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEdad)).BeginInit();
             this.SuspendLayout();
             // 
             // gbDetalleDeUsuario
             // 
+            this.gbDetalleDeUsuario.Controls.Add(this.makTextBoxCuit);
+            this.gbDetalleDeUsuario.Controls.Add(this.lBCuit);
             this.gbDetalleDeUsuario.Controls.Add(this.numericUpDownEdad);
             this.gbDetalleDeUsuario.Controls.Add(this.laEdad);
             this.gbDetalleDeUsuario.Controls.Add(this.tBDirección);
@@ -62,163 +66,10 @@
             this.gbDetalleDeUsuario.Controls.Add(this.laNombre);
             this.gbDetalleDeUsuario.Location = new System.Drawing.Point(119, 75);
             this.gbDetalleDeUsuario.Name = "gbDetalleDeUsuario";
-            this.gbDetalleDeUsuario.Size = new System.Drawing.Size(207, 133);
+            this.gbDetalleDeUsuario.Size = new System.Drawing.Size(207, 153);
             this.gbDetalleDeUsuario.TabIndex = 0;
             this.gbDetalleDeUsuario.TabStop = false;
             this.gbDetalleDeUsuario.Text = "Detalle del Usuario";
-            // 
-            // gbGenero
-            // 
-            this.gbGenero.Controls.Add(this.rBIndefinido);
-            this.gbGenero.Controls.Add(this.rBFemenino);
-            this.gbGenero.Controls.Add(this.rBMasculino);
-            this.gbGenero.Location = new System.Drawing.Point(488, 75);
-            this.gbGenero.Name = "gbGenero";
-            this.gbGenero.Size = new System.Drawing.Size(135, 112);
-            this.gbGenero.TabIndex = 1;
-            this.gbGenero.TabStop = false;
-            this.gbGenero.Text = "Genero";
-            // 
-            // gbCurso
-            // 
-            this.gbCurso.Controls.Add(this.cBJavascript);
-            this.gbCurso.Controls.Add(this.cBCmasmas);
-            this.gbCurso.Controls.Add(this.cBCshard);
-            this.gbCurso.Location = new System.Drawing.Point(488, 204);
-            this.gbCurso.Name = "gbCurso";
-            this.gbCurso.Size = new System.Drawing.Size(135, 103);
-            this.gbCurso.TabIndex = 2;
-            this.gbCurso.TabStop = false;
-            this.gbCurso.Text = "Curso";
-            // 
-            // laNombre
-            // 
-            this.laNombre.AutoSize = true;
-            this.laNombre.Location = new System.Drawing.Point(17, 31);
-            this.laNombre.Name = "laNombre";
-            this.laNombre.Size = new System.Drawing.Size(44, 13);
-            this.laNombre.TabIndex = 0;
-            this.laNombre.Text = "Nombre";
-            this.laNombre.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // laDirección
-            // 
-            this.laDirección.AutoSize = true;
-            this.laDirección.Location = new System.Drawing.Point(16, 58);
-            this.laDirección.Name = "laDirección";
-            this.laDirección.Size = new System.Drawing.Size(52, 13);
-            this.laDirección.TabIndex = 1;
-            this.laDirección.Text = "Dirección";
-            this.laDirección.Click += new System.EventHandler(this.laApellido_Click);
-            // 
-            // tBNombre
-            // 
-            this.tBNombre.Location = new System.Drawing.Point(80, 27);
-            this.tBNombre.Name = "tBNombre";
-            this.tBNombre.Size = new System.Drawing.Size(100, 20);
-            this.tBNombre.TabIndex = 2;
-            this.tBNombre.TextChanged += new System.EventHandler(this.tBNombre_TextChanged);
-            // 
-            // tBDirección
-            // 
-            this.tBDirección.Location = new System.Drawing.Point(80, 55);
-            this.tBDirección.Name = "tBDirección";
-            this.tBDirección.Size = new System.Drawing.Size(100, 20);
-            this.tBDirección.TabIndex = 3;
-            this.tBDirección.TextChanged += new System.EventHandler(this.tBDirección_TextChanged);
-            // 
-            // laEdad
-            // 
-            this.laEdad.AutoSize = true;
-            this.laEdad.Location = new System.Drawing.Point(20, 92);
-            this.laEdad.Name = "laEdad";
-            this.laEdad.Size = new System.Drawing.Size(32, 13);
-            this.laEdad.TabIndex = 4;
-            this.laEdad.Text = "Edad";
-            this.laEdad.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // rBMasculino
-            // 
-            this.rBMasculino.AutoSize = true;
-            this.rBMasculino.Location = new System.Drawing.Point(46, 28);
-            this.rBMasculino.Name = "rBMasculino";
-            this.rBMasculino.Size = new System.Drawing.Size(68, 17);
-            this.rBMasculino.TabIndex = 0;
-            this.rBMasculino.TabStop = true;
-            this.rBMasculino.Text = "Maculino";
-            this.rBMasculino.UseVisualStyleBackColor = true;
-            this.rBMasculino.CheckedChanged += new System.EventHandler(this.rBMasculino_CheckedChanged);
-            // 
-            // rBFemenino
-            // 
-            this.rBFemenino.AutoSize = true;
-            this.rBFemenino.Location = new System.Drawing.Point(46, 51);
-            this.rBFemenino.Name = "rBFemenino";
-            this.rBFemenino.Size = new System.Drawing.Size(71, 17);
-            this.rBFemenino.TabIndex = 1;
-            this.rBFemenino.TabStop = true;
-            this.rBFemenino.Text = "Femenino";
-            this.rBFemenino.UseVisualStyleBackColor = true;
-            this.rBFemenino.CheckedChanged += new System.EventHandler(this.rBFemenino_CheckedChanged);
-            // 
-            // rBIndefinido
-            // 
-            this.rBIndefinido.AutoSize = true;
-            this.rBIndefinido.Location = new System.Drawing.Point(46, 74);
-            this.rBIndefinido.Name = "rBIndefinido";
-            this.rBIndefinido.Size = new System.Drawing.Size(71, 17);
-            this.rBIndefinido.TabIndex = 2;
-            this.rBIndefinido.TabStop = true;
-            this.rBIndefinido.Text = "Indefinido";
-            this.rBIndefinido.UseVisualStyleBackColor = true;
-            this.rBIndefinido.CheckedChanged += new System.EventHandler(this.rBIndefinido_CheckedChanged);
-            // 
-            // cBCshard
-            // 
-            this.cBCshard.AutoSize = true;
-            this.cBCshard.Location = new System.Drawing.Point(46, 30);
-            this.cBCshard.Name = "cBCshard";
-            this.cBCshard.Size = new System.Drawing.Size(40, 17);
-            this.cBCshard.TabIndex = 0;
-            this.cBCshard.Text = "C#";
-            this.cBCshard.UseVisualStyleBackColor = true;
-            this.cBCshard.CheckedChanged += new System.EventHandler(this.cBCshard_CheckedChanged);
-            // 
-            // cBCmasmas
-            // 
-            this.cBCmasmas.AutoSize = true;
-            this.cBCmasmas.Location = new System.Drawing.Point(46, 53);
-            this.cBCmasmas.Name = "cBCmasmas";
-            this.cBCmasmas.Size = new System.Drawing.Size(45, 17);
-            this.cBCmasmas.TabIndex = 1;
-            this.cBCmasmas.Text = "C++";
-            this.cBCmasmas.UseVisualStyleBackColor = true;
-            this.cBCmasmas.CheckedChanged += new System.EventHandler(this.cB2_CheckedChanged);
-            // 
-            // cBJavascript
-            // 
-            this.cBJavascript.AutoSize = true;
-            this.cBJavascript.Location = new System.Drawing.Point(46, 76);
-            this.cBJavascript.Name = "cBJavascript";
-            this.cBJavascript.Size = new System.Drawing.Size(74, 17);
-            this.cBJavascript.TabIndex = 2;
-            this.cBJavascript.Text = "Javascript";
-            this.cBJavascript.UseVisualStyleBackColor = true;
-            this.cBJavascript.CheckedChanged += new System.EventHandler(this.cBJavascript_CheckedChanged);
-            // 
-            // lBPais
-            // 
-            this.lBPais.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.lBPais.FormattingEnabled = true;
-            this.lBPais.Items.AddRange(new object[] {
-            "Argentina",
-            "Chile",
-            "Uruguay"});
-            this.lBPais.Location = new System.Drawing.Point(119, 271);
-            this.lBPais.Name = "lBPais";
-            this.lBPais.Size = new System.Drawing.Size(207, 108);
-            this.lBPais.TabIndex = 0;
-            this.lBPais.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // numericUpDownEdad
             // 
@@ -237,6 +88,159 @@
             0,
             0});
             this.numericUpDownEdad.ValueChanged += new System.EventHandler(this.numericUpDownEdad_ValueChanged);
+            // 
+            // laEdad
+            // 
+            this.laEdad.AutoSize = true;
+            this.laEdad.Location = new System.Drawing.Point(20, 92);
+            this.laEdad.Name = "laEdad";
+            this.laEdad.Size = new System.Drawing.Size(32, 13);
+            this.laEdad.TabIndex = 4;
+            this.laEdad.Text = "Edad";
+            this.laEdad.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // tBDirección
+            // 
+            this.tBDirección.Location = new System.Drawing.Point(80, 55);
+            this.tBDirección.Name = "tBDirección";
+            this.tBDirección.Size = new System.Drawing.Size(100, 20);
+            this.tBDirección.TabIndex = 3;
+            this.tBDirección.TextChanged += new System.EventHandler(this.tBDirección_TextChanged);
+            // 
+            // tBNombre
+            // 
+            this.tBNombre.Location = new System.Drawing.Point(80, 27);
+            this.tBNombre.Name = "tBNombre";
+            this.tBNombre.Size = new System.Drawing.Size(100, 20);
+            this.tBNombre.TabIndex = 2;
+            this.tBNombre.TextChanged += new System.EventHandler(this.tBNombre_TextChanged);
+            // 
+            // laDirección
+            // 
+            this.laDirección.AutoSize = true;
+            this.laDirección.Location = new System.Drawing.Point(16, 58);
+            this.laDirección.Name = "laDirección";
+            this.laDirección.Size = new System.Drawing.Size(52, 13);
+            this.laDirección.TabIndex = 1;
+            this.laDirección.Text = "Dirección";
+            this.laDirección.Click += new System.EventHandler(this.laApellido_Click);
+            // 
+            // laNombre
+            // 
+            this.laNombre.AutoSize = true;
+            this.laNombre.Location = new System.Drawing.Point(17, 31);
+            this.laNombre.Name = "laNombre";
+            this.laNombre.Size = new System.Drawing.Size(44, 13);
+            this.laNombre.TabIndex = 0;
+            this.laNombre.Text = "Nombre";
+            this.laNombre.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // gbGenero
+            // 
+            this.gbGenero.Controls.Add(this.rBIndefinido);
+            this.gbGenero.Controls.Add(this.rBFemenino);
+            this.gbGenero.Controls.Add(this.rBMasculino);
+            this.gbGenero.Location = new System.Drawing.Point(488, 75);
+            this.gbGenero.Name = "gbGenero";
+            this.gbGenero.Size = new System.Drawing.Size(135, 112);
+            this.gbGenero.TabIndex = 1;
+            this.gbGenero.TabStop = false;
+            this.gbGenero.Text = "Genero";
+            // 
+            // rBIndefinido
+            // 
+            this.rBIndefinido.AutoSize = true;
+            this.rBIndefinido.Location = new System.Drawing.Point(46, 74);
+            this.rBIndefinido.Name = "rBIndefinido";
+            this.rBIndefinido.Size = new System.Drawing.Size(71, 17);
+            this.rBIndefinido.TabIndex = 2;
+            this.rBIndefinido.TabStop = true;
+            this.rBIndefinido.Text = "Indefinido";
+            this.rBIndefinido.UseVisualStyleBackColor = true;
+            this.rBIndefinido.CheckedChanged += new System.EventHandler(this.rBIndefinido_CheckedChanged);
+            // 
+            // rBFemenino
+            // 
+            this.rBFemenino.AutoSize = true;
+            this.rBFemenino.Location = new System.Drawing.Point(46, 51);
+            this.rBFemenino.Name = "rBFemenino";
+            this.rBFemenino.Size = new System.Drawing.Size(71, 17);
+            this.rBFemenino.TabIndex = 1;
+            this.rBFemenino.TabStop = true;
+            this.rBFemenino.Text = "Femenino";
+            this.rBFemenino.UseVisualStyleBackColor = true;
+            this.rBFemenino.CheckedChanged += new System.EventHandler(this.rBFemenino_CheckedChanged);
+            // 
+            // rBMasculino
+            // 
+            this.rBMasculino.AutoSize = true;
+            this.rBMasculino.Location = new System.Drawing.Point(46, 28);
+            this.rBMasculino.Name = "rBMasculino";
+            this.rBMasculino.Size = new System.Drawing.Size(68, 17);
+            this.rBMasculino.TabIndex = 0;
+            this.rBMasculino.TabStop = true;
+            this.rBMasculino.Text = "Maculino";
+            this.rBMasculino.UseVisualStyleBackColor = true;
+            this.rBMasculino.CheckedChanged += new System.EventHandler(this.rBMasculino_CheckedChanged);
+            // 
+            // gbCurso
+            // 
+            this.gbCurso.Controls.Add(this.cBJavascript);
+            this.gbCurso.Controls.Add(this.cBCmasmas);
+            this.gbCurso.Controls.Add(this.cBCshard);
+            this.gbCurso.Location = new System.Drawing.Point(488, 204);
+            this.gbCurso.Name = "gbCurso";
+            this.gbCurso.Size = new System.Drawing.Size(135, 103);
+            this.gbCurso.TabIndex = 2;
+            this.gbCurso.TabStop = false;
+            this.gbCurso.Text = "Curso";
+            // 
+            // cBJavascript
+            // 
+            this.cBJavascript.AutoSize = true;
+            this.cBJavascript.Location = new System.Drawing.Point(46, 76);
+            this.cBJavascript.Name = "cBJavascript";
+            this.cBJavascript.Size = new System.Drawing.Size(74, 17);
+            this.cBJavascript.TabIndex = 2;
+            this.cBJavascript.Text = "Javascript";
+            this.cBJavascript.UseVisualStyleBackColor = true;
+            this.cBJavascript.CheckedChanged += new System.EventHandler(this.cBJavascript_CheckedChanged);
+            // 
+            // cBCmasmas
+            // 
+            this.cBCmasmas.AutoSize = true;
+            this.cBCmasmas.Location = new System.Drawing.Point(46, 53);
+            this.cBCmasmas.Name = "cBCmasmas";
+            this.cBCmasmas.Size = new System.Drawing.Size(45, 17);
+            this.cBCmasmas.TabIndex = 1;
+            this.cBCmasmas.Text = "C++";
+            this.cBCmasmas.UseVisualStyleBackColor = true;
+            this.cBCmasmas.CheckedChanged += new System.EventHandler(this.cB2_CheckedChanged);
+            // 
+            // cBCshard
+            // 
+            this.cBCshard.AutoSize = true;
+            this.cBCshard.Location = new System.Drawing.Point(46, 30);
+            this.cBCshard.Name = "cBCshard";
+            this.cBCshard.Size = new System.Drawing.Size(40, 17);
+            this.cBCshard.TabIndex = 0;
+            this.cBCshard.Text = "C#";
+            this.cBCshard.UseVisualStyleBackColor = true;
+            this.cBCshard.CheckedChanged += new System.EventHandler(this.cBCshard_CheckedChanged);
+            // 
+            // lBPais
+            // 
+            this.lBPais.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.lBPais.FormattingEnabled = true;
+            this.lBPais.Items.AddRange(new object[] {
+            "Argentina",
+            "Chile",
+            "Uruguay"});
+            this.lBPais.Location = new System.Drawing.Point(119, 271);
+            this.lBPais.Name = "lBPais";
+            this.lBPais.Size = new System.Drawing.Size(207, 108);
+            this.lBPais.TabIndex = 0;
+            this.lBPais.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // laPaís
             // 
@@ -257,6 +261,25 @@
             this.buttonIngresar.UseVisualStyleBackColor = true;
             this.buttonIngresar.Click += new System.EventHandler(this.buttonIngresar_Click);
             // 
+            // lBCuit
+            // 
+            this.lBCuit.AutoSize = true;
+            this.lBCuit.Location = new System.Drawing.Point(20, 129);
+            this.lBCuit.Name = "lBCuit";
+            this.lBCuit.Size = new System.Drawing.Size(32, 13);
+            this.lBCuit.TabIndex = 6;
+            this.lBCuit.Text = "CUIT";
+            this.lBCuit.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // makTextBoxCuit
+            // 
+            this.makTextBoxCuit.Location = new System.Drawing.Point(80, 126);
+            this.makTextBoxCuit.Mask = "00-00000000-0";
+            this.makTextBoxCuit.Name = "makTextBoxCuit";
+            this.makTextBoxCuit.Size = new System.Drawing.Size(100, 20);
+            this.makTextBoxCuit.TabIndex = 7;
+            this.makTextBoxCuit.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -274,11 +297,11 @@
             this.Load += new System.EventHandler(this.Registro_Load);
             this.gbDetalleDeUsuario.ResumeLayout(false);
             this.gbDetalleDeUsuario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEdad)).EndInit();
             this.gbGenero.ResumeLayout(false);
             this.gbGenero.PerformLayout();
             this.gbCurso.ResumeLayout(false);
             this.gbCurso.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEdad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,6 +327,8 @@
         private System.Windows.Forms.NumericUpDown numericUpDownEdad;
         private System.Windows.Forms.Label laPaís;
         private System.Windows.Forms.Button buttonIngresar;
+        private System.Windows.Forms.MaskedTextBox makTextBoxCuit;
+        private System.Windows.Forms.Label lBCuit;
     }
 }
 
