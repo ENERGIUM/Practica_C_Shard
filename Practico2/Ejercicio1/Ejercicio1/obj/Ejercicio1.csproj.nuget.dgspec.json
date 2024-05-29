@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj": {}
+    "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Tema 3 - Introduccion C#\\practica\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj": {
+    "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Tema 3 - Introduccion C#\\practica\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
+        "projectUniqueName": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Tema 3 - Introduccion C#\\practica\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
         "projectName": "Ejercicio1",
-        "projectPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
-        "packagesPath": "C:\\Users\\Martin Tabusso\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Practicas\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\obj\\",
+        "projectPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Tema 3 - Introduccion C#\\practica\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
+        "packagesPath": "C:\\Users\\Martín Tabusso\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Martin Tabusso\\Documents\\UTN_RAFAELA\\año_2\\cuatrimestre-1\\Programación 3\\Tema 3 - Introduccion C#\\practica\\C#\\Practico2\\Ejercicio1\\Ejercicio1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Martin Tabusso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Martín Tabusso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
